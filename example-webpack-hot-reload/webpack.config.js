@@ -32,7 +32,7 @@ module.exports = {
         test: /\.js$/,
         loaders: [
           'jsx-loader?harmony',
-          '/Users/torgeir/Code/omniscient/omniscient/example-webpack/omniscient-hot-reload-loader'
+          __dirname + '/omniscient-hot-reload-loader'
         ]
       }
     ]
